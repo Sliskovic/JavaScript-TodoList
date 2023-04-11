@@ -66,7 +66,7 @@ export class Todo {
         item.prepend(checkbox);
 
     }
-    //Označi task rješenim/nerješenim
+
     markDone = (event) => {
         const checkbox = event.target;
         const item = checkbox.parentNode;
